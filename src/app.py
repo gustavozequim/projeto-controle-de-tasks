@@ -1,4 +1,5 @@
 from adicionar_tarefa import AdicionaTarefa
+from listar_tarefas import ListarTarefas
 
 #Menu inicial
 
@@ -21,7 +22,7 @@ while int(opcao) != 5:
     if int(opcao) == 1:
         AdicionaTarefa(tarefas=[])
     elif int(opcao) == 2:
-        ... #Código para listar tarefas
+        ListarTarefas()
     elif int(opcao) == 3:   
         ... #Código para remover tarefa
     elif int(opcao) == 4:
