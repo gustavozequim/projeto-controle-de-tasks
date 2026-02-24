@@ -1,5 +1,6 @@
 from adicionar_tarefa import AdicionaTarefa
 from listar_tarefas import ListarTarefas
+from remover_tarefas import RemoveTarefas
 
 #Menu inicial
 
@@ -24,7 +25,7 @@ while int(opcao) != 5:
     elif int(opcao) == 2:
         ListarTarefas()
     elif int(opcao) == 3:   
-        ... #Código para remover tarefa
+        RemoveTarefas()
     elif int(opcao) == 4:
         ... #Código para concluir tarefa
     print("\nEscolha uma opção:")
